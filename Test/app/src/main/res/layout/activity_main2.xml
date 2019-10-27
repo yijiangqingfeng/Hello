@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Main2Activity">
+
+    <TextView
+        android:id="@+id/txtView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="#75F0A542"
+        android:text="贾宝玉的个人介绍"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
+        />
+
+    <Button
+        android:id="@+id/btn_toast"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="160dp"
+        android:layout_width="160dp"
+        android:layout_marginTop="20dp"
+        android:background="@mipmap/ic_jiabaoyu"/>
+    <Button
+        android:id="@+id/btn_toast1"
+        android:layout_gravity="center_horizontal"
+        android:text="名字"
+        android:layout_margin="30dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="25sp"
+        android:layout_marginTop="40dp"/>
+    <Button
+        android:id="@+id/btn_toast2"
+        android:layout_gravity="center_horizontal"
+        android:text="个人介绍"
+        android:layout_margin="0dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="25sp"
+        android:layout_marginTop="40dp"/>
+</LinearLayout>
